@@ -25,8 +25,8 @@ while True:
         response = requests.put(URL, json=data, headers=HEADERS)
 
         if response.status_code == 200:
-            print(f"guild changé {guild_id} ({guild_name})")
+            print(f"guild changed {guild_id} ({guild_name})")
         else:
-            print(f"erreurrr {response.status_code} guild {guild_id} ({guild_name}): {response.text}")
+            print(f"error {response.status_code} guild {guild_id} ({guild_name}): {response.text}")
 
         time.sleep(300)
