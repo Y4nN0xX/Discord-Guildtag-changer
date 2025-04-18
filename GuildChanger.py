@@ -1,6 +1,6 @@
 import time
 import requests
-
+# updated useragent
 TOKEN = "YOUR-TOKEN-HERE"
 URL = "https://discord.com/api/v9/users/@me/clan"
 HEADERS = {
@@ -10,7 +10,7 @@ HEADERS = {
     "content-type": "application/json",
     "origin": "https://discord.com",
     "referer": "https://discord.com/channels/",
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) discord/1.0.9184 Chrome/130.0.6723.191 Electron/33.4.0 Safari/537.36",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
 }
 
 GUILD_IDS = {
